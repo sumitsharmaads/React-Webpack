@@ -1,1 +1,1 @@
-# React-Webpack
+# webpak-app

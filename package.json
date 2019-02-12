@@ -1,0 +1,32 @@
+{
+  "name": "webpack-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-hot-loader": "^4.6.5",
+    "webpack": "^4.28.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:@babel/register",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production --module-bind js=babel-loader"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
